@@ -67,3 +67,27 @@ body {
 }
 
 /* main styles */
+/* hero styles */
+.hero {
+  background-color: var(--dark-background-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  color: var(--nav-background-color);
+  background-color: var(--accent-color);
+}
+.hero-btn:active {
+  background-color: #188ce8;
+}
+
+/* Advatages styles */
+.advantages-list h3 {
+  color: var(--secondary-text-color);
+}
+/* occupation styles */
+.occupation {
+  color: var(--secondary-text-color);
+}
+/* team styles */
