@@ -90,6 +90,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .hero-btn:active {
   background-color: #188ce8;
@@ -171,6 +172,9 @@ body {
 }
 
 /* portfolio styles */
+.gallery {
+  background-color: var(--primary-bg-color);
+}
 .gallery-filter {
   list-style: none;
 }
@@ -183,6 +187,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
 .gallery-filter button:focus,
 .gallery-filter button:hover,
