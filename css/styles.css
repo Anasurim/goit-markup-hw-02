@@ -5,6 +5,8 @@
   --dark-background-color: #2f303a;
   --secondary-bg-color: #f5f4fa;
   --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  --logo-color: #000000;
 }
 
 body {
@@ -30,7 +32,7 @@ body {
 /* nav styles */
 
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 
   text-decoration: none;
   font-family: "Raleway";
@@ -94,7 +96,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--nav-background-color);
 }
 .hero-btn {
   color: var(--nav-background-color);
@@ -115,7 +117,7 @@ body {
 .hero-btn:focus,
 .hero-btn:hover,
 .hero-btn:active {
-  background-color: #188ce8;
+  background-color: var(--accent-color-hover);
 }
 
 /* Advatages styles */
@@ -182,7 +184,7 @@ body {
   background-color: var(--dark-background-color);
 }
 .footer .logo {
-  color: #ffffff;
+  color: var(--nav-background-color);
 }
 .logo-footer {
   color: var(--accent-color);
@@ -193,7 +195,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--nav-background-color);
 }
 .footer-list .google-adress {
   font-family: "Roboto";
@@ -232,11 +234,11 @@ body {
 .gallery-filter button:hover,
 .gallery-filter button:active {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--nav-background-color);
 }
 .gallery-portfolio {
   list-style: none;
-  background-color: #ffffff;
+  background-color: var(--nav-background-color);
 }
 .gallery-portfolio a {
   text-decoration: none;
