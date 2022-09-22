@@ -165,6 +165,8 @@ body {
 }
 .team-list {
   list-style: none;
+}
+.team-list-item {
   background-color: var(--nav-background-color);
 }
 .team-list h3 {
